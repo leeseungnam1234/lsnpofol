@@ -1,8 +1,41 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {headerNav} from '../constants/index'
 
 const Header = () => {
+    const [show , setShow] = useState(false)
+
+    const toggleMenu = () => {
+        setShow((prevShow) => !prevShow)
+    }
+    
     return (
-        <div>Header</div>
+        <header id='header'role='banner'>
+            <div className='header_inner'>
+                <div className='header_logo'>
+                    <a href="/">portfolio<em>React.js</em></a>
+                </div>
+                <nav className='headeR_nav' role='navigation' aria-label='메인 메뉴'>
+                    <ul>
+                        {headerNav.map((nav,key)=>(
+                            <li key={key}>
+                                <a href={nav.url}>{nav.title}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </nav>
+                <div
+                    className='headeR_nav_mobile'
+                    id='headerToggle'
+                    aria-controls='primary-menu'
+                    aria-expanded={show?"true":"false"}
+                    role='button'
+                    tabIndex='0'
+                    onClick={toggleMenu}
+                >
+                    <span></span>
+                </div>
+            </div>
+        </header>
     )
 }
 
