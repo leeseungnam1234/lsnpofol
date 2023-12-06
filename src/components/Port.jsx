@@ -1,7 +1,40 @@
-import React from 'react'
+import React, {useEffect, useRef } from 'react'
+
 import { portText } from '../constants'
+import { gsap } from 'gsap/gsap-core' 
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 const Port = () => {
+    const horizontalRef = useRef(null)
+    const sectionsRef = useRef([])
+
+    useEffect(() =>{
+        gsap.registerPlugin(ScrollTrigger)
+
+        const horizontal = horizontalRef.current
+        const sections = sectionsRef.current
+
+        let scrollTween = gsap.to(sections, {
+            xPercent: -120 * (sections.length -1),
+            ease:"none",
+            scrollTrigger:{
+                trigger:horizontal,
+                start:'top 56px',
+                end:() =>"+=" + horizontal.offsetWidth,
+                pin:true,
+                scrub:1,
+                invalidateOnRefresh:true,
+                anticipatePin:1
+            }
+        })
+
+        return() =>{
+            scrollTween.kill()
+        }
+    },[])
+
+
+
     return (
         <section id='port'>
             <div className='port_inner'>

@@ -175,3 +175,26 @@ export const contactText =[
         title:"mail: dltmdska01@naver.com"
     }
 ]
+
+export const footerText = [
+    {
+        title: "youtube",
+        desc: "유튜브에 오시면 더 많은 강의를 볼 수 있습니다.",
+        link: "https://github.com/leeseungnam1234/lsnyoutube",
+    },
+    {
+        title: "github",
+        desc: "깃헙에 오시면 더 많은 소스를 볼 수 있습니다.",
+        link: "https://github.com/leeseungnam1234",
+    },
+    {
+        title: "blog",
+        desc: "저의 블러그에 오시면 더 많은 정보를 볼 수 있습니다.",
+        link: "https://lsnblog.com"
+    },
+    {
+        title: "react",
+        desc: "리액트로 만든 사이트 코드입니다.",
+        link: "https://github.com/leeseungnam1234/lsnpofol"
+    }
+]
