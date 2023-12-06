@@ -1,21 +1,23 @@
 import React, {useEffect, useRef } from 'react'
 
 import { portText } from '../constants'
+import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import gsap from 'gsap'
 
 const Port = () => {
-    const horizontalRef = useRef(null)
-    const sectionsRef = useRef([])
+    
+    const horizontalRef = useRef([])
+    const sectionsRef = useRef([]) 
 
     useEffect(() =>{
         gsap.registerPlugin(ScrollTrigger)
 
+        
         const horizontal = horizontalRef.current
         const sections = sectionsRef.current
 
         let scrollTween = gsap.to(sections, {
-            xPercent: -120*(sections.length-1),
+            xPercent: -120 * (sections.length -1),
             ease:'none',
             scrollTrigger:{
                 trigger:horizontal,
