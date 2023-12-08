@@ -52,7 +52,7 @@ export const siteText = [
         text: ["make", "site compliant with", "webstandard"],
         title: "웹 표준을 준수한 사이트 제작",
         code: "https://github.com/leeseungnam1234/lsnpofol",
-        view: "",
+        view: "https://lsnpofol.netlify.app/",
         info: [
             "site coding",
             "production period : two days",
@@ -63,7 +63,7 @@ export const siteText = [
         text: ["make", "site compliant with", "react.js"],
         title: "리액트를 이용한 사이트 제작",
         code: "https://github.com/leeseungnam1234/lsnyoutube",
-        view: "",
+        view: "https://lsnyoutube.netlify.app/",
         info: [
             "site coding",
             "production period : two days",
