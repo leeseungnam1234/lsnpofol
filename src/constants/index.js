@@ -69,6 +69,17 @@ export const siteText = [
             "production period : two days",
             "use stack : HTML5/CSS3, CSS Variable, React"
         ]
+    },
+    {
+        text: ["make", "site compliant with", "next.js"],
+        title: "넥스트를 이용한 사이트 제작",
+        code: "https://github.com/leeseungnam1234/lsnnextpofol",
+        view: "https://lsnnextpofol.netlify.app",
+        info: [
+            "site coding",
+            "production period : two days",
+            "use stack : HTML5/CSS3, Scss Variable, next.js"
+        ]
     }
 ]
 
