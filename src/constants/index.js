@@ -80,6 +80,17 @@ export const siteText = [
             "production period : two days",
             "use stack : HTML5/CSS3, Scss Variable, next.js"
         ]
+    }, 
+    {
+        text: ["make", "site compliant with", "next.js"],
+        title: "React,Vite,TypeScript,FireBase 이용한 사이트 제작",
+        code: "https://github.com/leeseungnam1234/Lwitter",
+        view: "https://lwitter-756bb.web.app/",
+        info: [
+            "site coding",
+            "production period :  2 months",
+            "use stack : React,Vite,TypeScript,-g styled,FireBase 
+        ]
     }
 ]
 
