@@ -14,6 +14,7 @@ const Site = () => {
                                     <div>{site.text[0]}</div>
                                     <div>{site.text[1]}</div>
                                     <div>{site.text[2]}</div>
+                                    <div>{site.text[3]}</div>
                                 </div>
                                 <h3 className='title'>
                                     {site.title}
@@ -26,6 +27,7 @@ const Site = () => {
                                     <span>{site.info[0]}</span>
                                     <span>{site.info[1]}</span>
                                     <span>{site.info[2]}</span>
+                                    <span>{site.info[3]}</span>
                                 </div>
                             </article>
                         ))}
