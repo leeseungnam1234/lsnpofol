@@ -64,14 +64,14 @@
                     top: 180px;
                 }
             }
-            // &.s4 {
-            //     background-color: var(--subBg400);
-            //     top: 240px;
+            &.s4 {
+                background-color: var(--subBg400);
+                top: 240px;
 
-            //     @media (max-width: 800px){ 
-            //         top: 200px;
-            //     }
-            // }
+                @media (max-width: 800px){ 
+                    top: 200px;
+                }
+            }
             .num {
                 font-size: 5vw;
                 line-height: 1;
