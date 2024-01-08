@@ -49,6 +49,17 @@ export const skillText= [
 
 export const siteText = [
     {
+        text: ["make", "site compliant with", "react"],
+        title: "React,Firebase 이용한 사이트 제작",
+        code: "https://github.com/leeseungnam1234/Lwitter",
+        view: "https://lwitter-756bb.web.app",
+        info: [
+            "site coding",
+            "production period : 1 month",
+            "use stack : React, Vite, Git, Firebase, -g styled"
+        ]
+    },
+    {
         text: ["make", "site compliant with", "webstandard"],
         title: "웹 표준을 준수한 사이트 제작",
         code: "https://github.com/leeseungnam1234/lsnpofol",

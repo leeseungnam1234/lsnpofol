@@ -1,6 +1,6 @@
 import React from 'react'
 
-import about from '../assets/img/about.jpg'
+import about from '../assets/img/512.jpg'
 
 const Intro = () => {
     const introText={
