@@ -100,7 +100,7 @@ export const siteText = [
         info: [
             "site coding",
             "production period :  2 months",
-            "use stack : React,Vite,TypeScript,-g styled,FireBase 
+            "use stack : React,Vite,TypeScript,-g styled,FireBase"
         ]
     }
 ]
