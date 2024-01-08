@@ -27,7 +27,6 @@ const Site = () => {
                                     <span>{site.info[0]}</span>
                                     <span>{site.info[1]}</span>
                                     <span>{site.info[2]}</span>
-                                    <span>{site.info[3]}</span>
                                 </div>
                             </article>
                         ))}
